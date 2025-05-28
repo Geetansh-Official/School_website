@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "school-website-7096f"
+  },
+  "targets": {
+    "school-website-7096f": {
+      "hosting": {
+        "ghssportha.info": [
+          "school-website-7096f"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
