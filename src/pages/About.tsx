@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Globe,  LightbulbIcon } from "lucide-react";
-import TimelineItem from "@/components/molecules/TimelineItem";
+// import TimelineItem from "@/components/molecules/TimelineItem";
 import Stats from "@/components/organisms/Stats";
 
 const About = () => {
@@ -102,55 +102,7 @@ const About = () => {
       </section>
       
       {/* History Timeline */}
-      <section className="py-16">
-        <div className="container">
-          <div className="mb-12 text-center">
-            <h2 className="mb-3 font-poppins text-3xl font-bold">Our History</h2>
-            <p className="mx-auto max-w-2xl text-muted-foreground">
-              Trace the journey of Govt. Higher Secondary School, Portha from its founding to the present day.
-            </p>
-          </div>
-          
-          <div className="mx-auto max-w-2xl">
-            <TimelineItem
-              date="1978"
-              title="Foundation"
-              description="Govt. Higher Secondary School, Portha was founded by Dr. Eleanor Wright with a vision to provide exceptional education focused on holistic development."
-            />
-            
-            <TimelineItem
-              date="1985"
-              title="Campus Expansion"
-              description="The school expanded its campus, adding new facilities including a library, science laboratories, and sports grounds."
-            />
-            
-            <TimelineItem
-              date="1997"
-              title="Innovation in Curriculum"
-              description="Govt. Higher Secondary School, Portha pioneered a new integrated curriculum approach, combining traditional subjects with project-based learning."
-            />
-            
-            <TimelineItem
-              date="2008"
-              title="Technology Integration"
-              description="The school embraced digital transformation, implementing technology across all classrooms and introducing computer science programs."
-            />
-            
-            <TimelineItem
-              date="2015"
-              title="International Recognition"
-              description="Govt. Higher Secondary School, Portha received international accreditation and established exchange programs with schools around the world."
-            />
-            
-            <TimelineItem
-              date="Present Day"
-              title="Continuing Excellence"
-              description="Today, Govt. Higher Secondary School, Portha stands as a beacon of educational excellence, continuing to evolve while maintaining its core values and mission."
-              isLast
-            />
-          </div>
-        </div>
-      </section>
+      
       
       <Stats />
       
