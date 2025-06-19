@@ -61,6 +61,26 @@ export const facultyMembers = [
     bio: ""
   },
   {
+    id: 623,
+    name: "Mrs. Laxmi Mahant",
+    position: "Lect.(LB)",
+    department: "Commerce",
+    image: "https://raw.githubusercontent.com/GHSS-School/GHSS_School/main/Teachers/623/image.jpeg",
+    email: "",
+    phone: "",
+    bio: ""
+  },
+  {
+    id: 526,
+    name: "Mrs. Chhand Jaiswal",
+    position: "Lect.(LB)",
+    department: "Sanskrit",
+    image: "https://raw.githubusercontent.com/GHSS-School/GHSS_School/main/Teachers/526/image.jpeg",
+    email: "",
+    phone: "",
+    bio: ""
+  },
+  {
     id: 7,
     name: "Mr. R.P. Zaffari",
     position: "Lect.(LB)",
